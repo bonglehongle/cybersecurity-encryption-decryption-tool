@@ -61,7 +61,7 @@ Before running the application, ensure you have the following installed:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/cybersecurity-encryption-decryption-tool.git
+   git clone https://github.com/MideoHub/cybersecurity-encryption-decryption-tool.git
    cd cybersecurity-encryption-decryption-tool 
    ```
  
