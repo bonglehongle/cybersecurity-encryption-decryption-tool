@@ -1,119 +1,116 @@
-# Cybersecurity Encryption & Decryption Tool  🔓
+# Cybersecurity Encryption & Decryption Tool 🔒
 
-<img src="src/assets/img_icon.jpeg" alt="Project Logo" width="60" height="70" >
+![GitHub release](https://img.shields.io/github/release/bonglehongle/cybersecurity-encryption-decryption-tool.svg)
 
-A Python-based GUI application for demonstrating various classical encryption and decryption algorithms.
+Welcome to the **Cybersecurity Encryption & Decryption Tool**! This Python GUI application is designed to help you learn about classical encryption and decryption methods. Whether you're a beginner in cybersecurity or someone looking to deepen your understanding, this tool offers an interactive experience to explore various ciphers.
 
 ## Table of Contents
-- [Overview](#overview)
+
 - [Features](#features)
-- [Prerequisites](#prerequisites)
+- [Supported Ciphers](#supported-ciphers)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Supported Ciphers](#supported-ciphers)
 - [File Handling](#file-handling)
+- [Modular Design](#modular-design)
+- [Error Messages](#error-messages)
 - [Contributing](#contributing)
-
-## Overview
-
-The Cybersecurity Encryption & Decryption Tool is a Python-based graphical user interface (GUI) application designed to demonstrate various classical encryption and decryption algorithms. Built using Tkinter, this tool allows users to encrypt and decrypt text using ciphers such as Caesar Cipher, Playfair Cipher, Rail Fence Cipher, ROT13, Substitution Cipher, and Vigenère Cipher.
-
-This project was developed as a learning exercise to explore cybersecurity concepts, specifically focusing on classical encryption techniques. It is intended for educational purposes and can serve as a foundation for further enhancements in cryptographic applications.
+- [License](#license)
+- [Links](#links)
 
 ## Features
 
-- **Multiple Ciphers**: Supports six classical ciphers:
-  - Caesar Cipher
-  - Playfair Cipher
-  - Rail Fence Cipher
-  - ROT13 Cipher
-  - Substitution Cipher
-  - Vigenère Cipher
+- User-friendly GUI built with Tkinter
+- Supports multiple classical ciphers
+- Easy to use for educational purposes
+- File handling capabilities
+- Modular design for easy understanding
+- Clear error messages to guide users
 
-- **User-Friendly GUI**:
-  - Built with Tkinter
-  - Main window to select a cipher
-  - Individual windows for each cipher with input fields, key entry, and result display
+## Supported Ciphers
 
-- **File Handling**:
-  - Upload text files to encrypt/decrypt
-  - Download results as text files
+This tool includes the following classical ciphers:
 
-- **Interactive Elements**:
-  - Hover effects on buttons
-  - Back button to return to the main menu
-
-- **Error Handling**:
-  - Displays error messages for invalid inputs
-
-- **Modular Design**:
-  - Code organized into separate modules for each cipher
-
-## Prerequisites
-
-Before running the application, ensure you have the following installed:
-
-- Python 3.6+
-- pip (Python package manager)
-- Virtual Environment (optional but recommended)
+1. **Caesar Cipher**: A simple substitution cipher where each letter is shifted by a fixed number.
+2. **Playfair Cipher**: A digraph substitution cipher that encrypts pairs of letters.
+3. **Rail Fence Cipher**: A transposition cipher that arranges text in a zigzag pattern.
+4. **ROT13**: A special case of the Caesar cipher that shifts letters by 13 places.
+5. **Substitution Cipher**: Each letter in the plaintext is replaced with another letter.
+6. **Vigenère Cipher**: A method that uses a keyword to shift letters in the plaintext.
 
 ## Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/MideoHub/cybersecurity-encryption-decryption-tool.git
-   cd cybersecurity-encryption-decryption-tool 
-   ```
- 
-2. Install dependencies:
-   ```bash
-    pip install -r requirements.txt
-   ```
- 
-3. Run the application:
+To install the Cybersecurity Encryption & Decryption Tool, follow these steps:
 
+1. **Clone the Repository**: Open your terminal and run:
    ```bash
-   python src/main.py
+   git clone https://github.com/bonglehongle/cybersecurity-encryption-decryption-tool.git
+   ```
+   
+2. **Navigate to the Directory**:
+   ```bash
+   cd cybersecurity-encryption-decryption-tool
+   ```
+
+3. **Install Dependencies**: Make sure you have Python installed. Then, install Tkinter if it's not already installed. You can do this using:
+   ```bash
+   pip install tk
+   ```
+
+4. **Run the Application**: Execute the following command:
+   ```bash
+   python main.py
    ```
 
 ## Usage
 
-1. **Launch the application**
-2. **Select a cipher** from the main menu
-3. **Enter your text** or upload a file
-4. **Provide the required key** (if applicable)
-5. Click **"Encrypt"** or **"Decrypt"**
-6. **View the result** or download it as a file
+Once the application is running, you will see a clean interface with options to choose different ciphers. 
 
-## Supported Ciphers
-
-### 1. Caesar Cipher
-A substitution cipher where each letter is shifted by a fixed number down the alphabet.
-
-### 2. Playfair Cipher  
-A digraph substitution cipher that uses a 5×5 grid of letters for encryption.
-
-### 3. Rail Fence Cipher  
-A transposition cipher that writes the message in a zig-zag pattern down multiple rails.
-
-### 4. ROT13 Cipher  
-A special case of the Caesar cipher with a shift of 13 positions.
-
-### 5. Substitution Cipher  
-A cipher that replaces each letter with another letter from the alphabet.
-
-### 6. Vigenère Cipher  
-A method of encrypting alphabetic text by using a simple form of polyalphabetic substitution.
+- Select the cipher you want to use from the dropdown menu.
+- Input your text in the provided field.
+- Click the "Encrypt" or "Decrypt" button based on your need.
+- View the output in the designated area.
 
 ## File Handling
 
-The application supports:
-- Uploading text files for encryption/decryption
-- Downloading results as text files
+The tool allows you to import text files for encryption or decryption. Here’s how:
+
+1. Click on the "Import" button.
+2. Choose the text file you wish to encrypt or decrypt.
+3. The application will load the content for processing.
+
+You can also save the output to a file:
+
+1. After processing, click on the "Save" button.
+2. Choose the location and name for your output file.
+
+## Modular Design
+
+The application is designed in a modular way. Each cipher has its own dedicated module. This approach makes it easy to understand the code and extend functionality in the future. If you wish to add a new cipher, simply create a new module and integrate it with the main application.
+
+## Error Messages
+
+The tool provides clear error messages to help you troubleshoot issues. If you input invalid text or encounter a problem during encryption or decryption, the application will display a helpful message. This feature enhances the learning experience by guiding users through common pitfalls.
 
 ## Contributing
 
-Contributions are welcome! 
+We welcome contributions to improve this tool. If you have ideas or suggestions, please follow these steps:
 
--------------
-#### Feel free to reach out with feedback or collaboration ideas!
+1. Fork the repository.
+2. Create a new branch for your feature or fix.
+3. Make your changes and commit them.
+4. Push to your branch.
+5. Create a pull request.
+
+## License
+
+This project is licensed under the MIT License. Feel free to use and modify it as needed.
+
+## Links
+
+To download the latest release of the Cybersecurity Encryption & Decryption Tool, visit the [Releases section](https://github.com/bonglehongle/cybersecurity-encryption-decryption-tool/releases). You can find the latest version of the tool there.
+
+For more information, please check the [Releases section](https://github.com/bonglehongle/cybersecurity-encryption-decryption-tool/releases).
+
+---
+
+Feel free to explore the code, learn about classical ciphers, and enhance your cybersecurity knowledge. Happy coding!
